@@ -272,3 +272,25 @@ body, p{
 #author_music{
 	color: #009EB5;
 }
+
+.records_or_all{
+	width: 94%;
+}
+
+.records_or_all > div{
+	display: flex;
+}
+
+.records_or_all > div > p{
+		padding: 5px;
+		border-radius: 5px;
+}
+#all{
+	border-radius: : 2px ;
+	background: #009EB1;
+	margin-left: 5px;
+}
+
+.records_or_all > div > p:hover{
+		background: #474a4c;
+}
