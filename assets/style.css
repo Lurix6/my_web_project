@@ -84,6 +84,8 @@ body, p{
 
 .background{
 	background: #008199;
+	background-size: 100% 100%; 
+	background-image: url(img/wallpaper.jpg)  ;
 	height: 250px;
 
 }
@@ -171,6 +173,7 @@ body, p{
 	flex-direction: column;
 }
 
+
 .name_and_status{
 	position: absolute;
 	top: 170px;
@@ -187,13 +190,13 @@ body, p{
 	left: 10px;
 }
 
-.about_me{
+.my_date{
 	display: flex;
 	flex-direction: column;
 	margin: 10px 0 0 10px;
 }
 
-.about_me > div{
+.my_date > div{
 	padding:5px;
 	display: flex;
 	flex-direction: column;	
@@ -201,21 +204,28 @@ body, p{
 
 }
 
-.about_me > div > div {
+.my_date > div > div {
 	margin-left: 160px;
 	margin-top: -18px;
 }
 
+.about_me{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
 .private_inf{
+		justify-content: space-between;
 	display: flex;
 	width: 100%;
-	justify-content: space-between;
 }
 
 .my_rating{
 	display: flex;
 	padding: 10px;
 	font-size: 30px;
+
 }
 
 #rating{
@@ -226,4 +236,39 @@ body, p{
 	width: 40px;
 	border-radius: 8px;
 	background: linear-gradient(to top, #53a7c9, #1d86b4);
+}
+
+
+#show_detail > div{
+	margin: 10px 0 10px 0;
+}
+
+.my_music{
+	width: 100%;
+
+}
+
+#current_music {
+	padding: 10px;
+	margin: 0 20px 0 20px;
+	border-radius: 10px 10px 0 0;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid white;
+}
+
+#play_music{
+	margin-right: 5px;
+	width: 18px;
+	height: 18px;
+	background: url(img/staticmp3.png) no-repeat -31px -12px;
+}
+
+.list_music > div{
+	display: flex;
+	margin: 10px 20px 0 20px;
+}
+
+#author_music{
+	color: #009EB5;
 }
