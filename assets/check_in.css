@@ -1,0 +1,48 @@
+.check_in{
+	display: flex;
+	justify-content: center;
+}
+
+.check_in_form{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-top: 15px;
+}
+
+.check_in_form > div{
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.check_in_form > div > div{
+	width: 140px;
+}
+
+
+#convert{
+	margin-left: 10px;
+}
+
+
+.send{
+	justify-content: 0;
+	justify-content: flex-end;
+}
+
+.check_in_form > div:nth-child(5){
+	justify-content: flex-end;
+}
+
+#convert, #send_btn {
+	text-align: center;
+	padding: 4px;
+	color: white;
+	background: #00B2B9;
+	border-radius: 10px;
+}
+.check_in_form span{
+	color: red;
+}
+

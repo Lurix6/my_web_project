@@ -1,0 +1,55 @@
+ *{
+ 	margin:0;
+ 	padding:0;
+ }
+
+ .appreciate{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	background: black;
+	width: 100%;
+	height: 600px;
+	align-items: center;
+}
+
+#text{
+	margin-top: 15px;
+}
+
+#image_person{
+	border-radius: 15px;
+	margin-bottom: 15px; 
+	margin-top: 15px;
+	width: 600px;
+	height: 450px;
+	background: blue;
+	background: url(img/appreciate/img_1.jpg);
+	background-size: 100%;
+}
+
+
+#your_choise{
+	display: flex;
+	height: 35px;
+}
+
+
+#your_choise ul{
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+}
+
+
+#your_choise ul li{
+	border-radius: 5px;
+	list-style-type: none;
+	padding:10px 20px;
+}
+
+#your_choise ul li:hover {
+	background: #00B2B8;
+	color:white;
+	cursor: pointer;
+}
