@@ -1,0 +1,184 @@
+.siteBody{
+	width: 1285px;
+	height: 600px;
+	background: black;
+}
+
+.siteBody div {
+	display: flex;
+
+
+}
+
+.menu{
+	font-size: 18px;
+	color: #00AFB6;
+	display: flex;
+	flex-direction: column;
+	margin: 15px 15px 0 15px  ;
+	width: 250px;
+	height: 600px;
+/*	background: #252626;*/
+}
+
+
+.menu div{
+	text-align: center;
+	padding: 10px;
+	width: 230px;
+}
+
+.menu div:hover{
+	background: #242424;
+}
+
+.menu div img{
+	position: relative;
+	top: -3px;
+	margin-right: 10px;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+}
+
+
+/*00a8af - color img */
+
+
+.musicBlock{
+	margin: 15px 15px 0 0 ;
+	display: flex;
+	flex-direction: column;
+	width:1000px;
+	min-width: 600px;
+	height: 600px;
+}
+
+
+.curentMusic, .fullListMusic{
+	border-radius: 1px;
+
+}
+
+.curentMusic{
+
+	align-items: center;
+	display: flex;
+	min-width: 350px;
+	width: 685px;
+	height: 60px;
+	background: white;
+
+}
+
+#play{
+	margin-left: 5px;
+	width: 30px;
+	height: 30px;
+	
+}
+#next_previous img{
+
+	margin-left: 10px;
+	width: 10px;
+	height: 10px;
+
+}
+
+
+.about_current_music img{
+	border-radius: 2px;
+	margin: 0 20px ;
+	width: 45px;
+	height: 45px;
+	border-radius: 2px;
+}
+.about_current_music div{
+	margin-top: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.fullListMusic{
+	display: flex;
+	flex-direction: column;
+	width: 685px;
+	margin-top: 15px;	
+	min-width: 550px;
+	height: 100%;
+	background: white;
+}
+
+.category{
+	display: flex;
+}
+
+
+.category p {
+	margin: 0 5px;
+ 	padding: 15px;
+}
+
+.category p:first-child {
+ 	border-bottom: 2px solid #00AEB5;
+}
+.category p:hover {
+ 	border-bottom: 2px solid #b3b4b5;
+}
+
+hr {
+	width: 400px;
+	display: flex;
+	margin: 0 0 0 5px;
+	
+}
+
+.showlist{
+	display: flex;
+	flex-direction: column;
+}
+
+.search {
+	margin: 5px;
+}
+
+.search input{
+	padding: 8px 70px 8px 12px;
+	height: 15px;
+	width: 400px;
+}
+
+.search button{
+	margin-left: 5px;
+	width: 50px;
+	background: url('img/music/serch.png') #f0f2f5 no-repeat 50%;
+		background-size: 20px 20px;	
+}
+
+.about_list{
+	width: 530px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 9px;
+    font-size: 15px;
+    margin:10px;
+}
+
+.list_music{
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.list_music div{
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+

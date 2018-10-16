@@ -201,6 +201,11 @@
 	justify-content: space-between;
 	border: 2px solid white;
 }
+#current_music:hover{
+	background-color: #00b0b7;
+	cursor: pointer;
+}
+
 
 #play_music{
 	margin-right: 5px;
@@ -297,6 +302,6 @@
 }
 
 .my_photo_record_footer div:hover{
-	border-radius: 5px;
-	background: blue;
+
+	background: #00b0b7;
 }
