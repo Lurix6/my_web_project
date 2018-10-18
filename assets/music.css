@@ -61,7 +61,6 @@
 }
 
 .curentMusic{
-
 	align-items: center;
 	display: flex;
 	min-width: 350px;
@@ -113,6 +112,7 @@
 }
 
 .category{
+	margin-left: 15px;
 	display: flex;
 }
 
@@ -143,6 +143,7 @@ hr {
 
 .search {
 	margin: 5px;
+
 }
 
 .search input{
@@ -162,9 +163,8 @@ hr {
 	width: 530px;
 	display: flex;
 	justify-content: space-between;
-	margin-top: 9px;
     font-size: 15px;
-    margin:10px;
+    margin:5px 5px;
 }
 
 .list_music{
@@ -174,11 +174,37 @@ hr {
 }
 
 
-.list_music div{
-	margin: 10px;
+.list_music > div{
+	height: 40px;
+	padding: 5px;
+	margin: 3px 10px;
 	display: flex;
 	justify-content: space-between;
 }
 
+.list_music img, .list_music > div{
+	border-radius: 3px; 
+
+}
+
+.list_music img{
+	width: 48px;
+	height: 48px;
+
+}
+
+.list_music_inf{
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.list_music_time{
+	position: relative;
+	top: 10px;
+}
+.list_music > div:hover{
+    background: #d4d4d4;
+}
 
 
