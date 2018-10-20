@@ -13,31 +13,39 @@ export let Account = [
 	music:[{
 		executor:'Alan Walker',
 		title:'Darkside (feat. Au/Ra and Tomine Harket)',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=480275022'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=480275022',
+		full_time: '3:50'
 	},{
 		executor:'Alan Walker',
 		title:'New Day (Official Video) [New Song 2018]',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=473944656'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=473944656',		
+		full_time: '3:50'
+
 	},{
 		executor:'Alan Walker',
 		title:'The Spectre',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=309831866'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=309831866',
+		full_time: '3:50'
 	},{
 		executor:'Alan Walker',
 		title:'Fade [NCS Release]',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=177671751'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=177671751',
+		full_time: '3:50'
 	},{
 		executor:'Alan Walker',
 		title:'Spectre [NCS Release]',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=184757886'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=184757886',
+		full_time: '3:50'
 	},{
 		executor:'Alan Walker',
 		title:'ing Me To Sleep (Marshmello Remix)',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=276826702'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=276826702',
+		full_time: '3:50'
 	},{
 		executor:'Alan Walker',
 		title:'Alone (Feel The Beat Edit)',
-		url:'http://taimp3nhanh.com/stream/stream.php?id=295928473'
+		url:'http://taimp3nhanh.com/stream/stream.php?id=295928473',
+		full_time: '3:50'
 	}
 
 

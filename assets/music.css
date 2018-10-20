@@ -173,37 +173,54 @@ hr {
 	flex-direction: column;
 }
 
-
-.list_music > div{
-	height: 40px;
+.list_music > ul > li {
+	height: 48px;
 	padding: 5px;
-	margin: 3px 10px;
-	display: flex;
-	justify-content: space-between;
+	margin: 5px;
+
 }
 
-.list_music img, .list_music > div{
-	border-radius: 3px; 
+.list_music > ul > li > div{
+	padding: 3px 6px;
+	height: 53px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.list_music > ul > li {
+	
+}
+
+ul{ 
+	padding-left: 0 ;
+}
+
+
+.list_music img, .list_music > ul > li > div{
+	border-radius: 5px; 
 
 }
 
 .list_music img{
 	width: 48px;
 	height: 48px;
+	margin-right: 10px;
 
 }
 
 .list_music_inf{
-	margin-left: 10px;
 	display: flex;
 	flex-direction: column;
 }
 
 .list_music_time{
-	position: relative;
-	top: 10px;
+	height: 20px;
 }
-.list_music > div:hover{
+
+
+.list_music > ul > li :hover{
     background: #d4d4d4;
 }
 

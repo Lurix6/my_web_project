@@ -10,6 +10,7 @@ body, p{
 
 .block_header{
 	flex-direction: column;
+	min-width:700px;
 }
 
 .header {
